@@ -1,0 +1,61 @@
+.banner {
+    padding-top: 2rem;
+    background-color: #fefaf5;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-heading {
+    font-size: 2.5rem;
+    margin: 4rem 0 2rem;
+}
+.banner_text {
+    color: #335576;
+}
+.banner-slogan {
+    margin-bottom: 3rem;
+}
+.button-link {
+    padding: 0.7rem 2.5rem;
+    border-radius: 1.875rem;
+    background-color: #db7a4e;
+    color: #fff;
+    font-size: 0.9rem
+}
+.button-link:visited {
+    color:#fff;
+}
+.button-link:hover {
+    background-color: #335576;
+    transition: 1s;
+}
+
+.banner_image {
+    height: 65vh;
+    padding: 2rem 2rem 4rem;
+}
+#card-Hawaii {
+    background-image: url(../Assets/Images/hawaii.jpg);
+
+}
+#card-Iceland {
+    background-image: url( ../Assets/Images/iceland.jpg);
+}
+#card-Greece {
+    background-image: url(../Assets/Images/greece.jpg);
+}
+.card-section_heading {
+    color:  #335576;
+    font-size: 1.45rem;
+    margin: 1rem;
+}
+.card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+.card > p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.45rem;
+}
+

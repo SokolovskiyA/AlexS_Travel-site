@@ -1,0 +1,147 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 80rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+main {
+  padding-top: 3rem;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #335576;
+}
+.nav {
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 0.5rem 4rem;
+  width: 100%;
+  position: fixed;
+}
+.nav_heading {
+  color: #335576;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+.nav_item {
+  list-style: none;
+  margin: 0 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 3px solid white;
+}
+.nav_item:hover {
+  border-bottom: 3px solid #DB7A4E;
+  transition: 1s;
+}
+.nav_link {
+  font-size: 0.9rem;
+  color: black;
+}
+.nav_link:visited {
+  color: black;
+}
+.page-on {
+  border-bottom: 3px solid #DB7A4E;
+}
+.card-section {
+  padding: 2rem 2rem 4rem;
+  height: 90%;
+}
+.card-section_heading {
+  color: #FFFFFF;
+  font-size: 4rem;
+  margin: 1.5rem;
+}
+.cards { 
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.card {
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 260px;
+  height: 375px;
+  margin: 1.5rem 2rem;
+  border-radius: .3125rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 1rem;
+}
+.card_text {
+  background-color: #FEFAF5;
+  padding: 1rem;
+  margin-top: 1rem;
+  list-style: none;
+}
+.card_heading {
+  padding: -0.125rem;
+  border-bottom: 3px solid black;
+}
+section {
+  padding: 1rem 4rem;
+}
+footer {
+  padding: 1.5rem;
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: center;
+}
+.footer_heading {
+  font-size: 1.45rem;
+  margin: 1rem 1rem 0.5rem;
+  color: #335576;
+  font-weight: 600;
+}
+.footer_section {
+  margin: 0 2rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.schedule-container {
+  display: flex;
+  justify-content: space-around;
+}
+.section-div {
+  margin: 1rem;
+}
+.social-icon {
+  max-height: 25px;
+  margin: 0 2rem 0 0;
+}
+.social {
+  align-items: space-between;
+}
+.f-subheading {
+  color:#DB7A4E;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.f-text {
+  color: #335576;
+  font-size: 0.95rem;
+}
+.f-text > a {
+  text-decoration: none;
+  color: #335576;
+}

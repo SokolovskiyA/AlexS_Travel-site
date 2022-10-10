@@ -4,68 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/index.css">
     <title>Home Page</title>
 </head>
 <body>
-    <Header class="header">
+    <header class="header">
         <nav class="nav"> 
             <h1 class="nav_heading"><a href="./index.html">Travel Site</a></h1>
             <ul class="nav_list">
-                <li class="nav_item"><a class="nav_link" href="./index.html">Home</a></li>
+                <li class="nav_item page-on"><a class="nav_link" href="./index.html">Home</a></li>
+                <li class="nav_item"><a class="nav_link" href="./Pages/Hawaii.html">Hawaii</a></li>
                 <li class="nav_item"><a class="nav_link" href="./Pages/Iceland.html">Iceland</a></li>
                 <li class="nav_item"><a class="nav_link" href="./Pages/Greece.html">Greece</a></li>
-                <li class="nav_item"><a class="nav_link" href="./Pages/Hawaii.html">Hawaii</a></li>
             </ul>
         </nav>
-    </Header>
-    <Main>
+    </header>
+    <main>
         <section class="banner">
             <div class="banner_text">
-                <h2>Traveling Comes With Endless Discoveries</h2>
-                <p>Don`t let your dreams be just dreams. Experience the world by booking a vacation with us now</p>
-                <a href="#recomendations">Get statred</a>
+                <h2 class="banner-heading">Traveling Comes With Endless Discoveries</h2>
+                <p class="banner-slogan">Don`t let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+                <a class="button-link" href="#recomendations">Get statred</a>
             </div>
-            <div class="banner_image">
+            <div class="image-container">
+                <img class="banner_image" src="./Assets/Images/hero.png" alt="hero_image">
             </div>
         </section>
-        <section class="card-section" id="recomendations">
+        <section id="recomendations">
             <h2 class="card-section_heading">Recomendations</h2>
-            <div class="card">
-                <a class="card_link" href="">Hawaii</a>
-            </div>
-            <div class="card">
-                <a class="card_link" href="">Iceland</a>
-            </div>
-            <div class="card">
-                <a class="card_link" href="">Greece</a>
+            <div class="cards">
+                <a href="./Pages/Hawaii.html">   
+                    <div id="card-Hawaii" class="card">
+                        <p>Hawaii</p> 
+                    </div>
+                </a>
+                <a href="./Pages/Iceland.html">       
+                    <div id="card-Iceland" class="card">
+                        <p>Iceland</p>
+                    </div>
+                </a>  
+                <a href="./Pages/Greece.html">
+                    <div id="card-Greece" class="card">
+                        <p>Greece</p>
+                    </div>
+                </a>
             </div>
         </section>
-    </Main>
-    <Footer>
+    </main>
+    <footer>
         <div class="footer_section">
             <h2 class="footer_heading">Contacts</h2>
-            <p>email</p>
-            <p><a href="mailto: info@travelsite.com">info@travelsite.com</a></p>
+            <div class="section-div">
+                <p class="f-subheading">email</p>
+                <p class="f-text"><a href="mailto: info@travelsite.com">info@travelsite.com</a></p>
+            </div>
         </div>
         <div class="footer_section">
             <h2 class="footer_heading">Hours</h2>
             <div class="schedule-container">
-                <p class="days">monday - friday</p>
-                <p class="days">saturday</p>
-                <p class="days">sunday</p>
-                <p class="hours">9:00 AM - 5:00 PM</p>
-                <p class="hours">10:00 AM - 4:00 PM</p>
-                <p class="hours">Closed</p>
+                <div class="section-div">
+                    <p class="f-subheading">monday - friday</p>
+                    <p class="f-text">9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="section-div">
+                    <p class="f-subheading">saturday</p>
+                    <p class="f-text">10:00 AM - 4:00 PM</p>
+                </div>
+                <div class="section-div"> 
+                    <p class="f-subheading">sunday</p>
+                    <p class="f-text">Closed</p>
+                </div>
             </div>
         </div>
-        <div class="footer_section">
+        <div class="footer_section social">
             <h2 class="footer_heading">Social</h2>
-            <div class="social_icons-container">
-                <a href="https://www.instagram.com"><img src="./Assets/Icons/icon-instagram.png" alt="instagram-icon"></a>
-                <a href="https://www.facebook.com"><img src="./Assets/Icons/icon-facebook.png" alt="facebook-icon"></a>
-                <a href="https://twitter.com"><img src="./Assets/Icons/icon-twitter.png" alt="twitter-icon"></a>
+            <div class="section-div">
+                <a href="https://www.instagram.com"><img class="social-icon" src="./Assets/Icons/icon-instagram.png" alt="instagram-icon"></a>
+                <a href="https://www.facebook.com"><img class="social-icon" src="./Assets/Icons/icon-facebook.png" alt="facebook-icon"></a>
+                <a href="https://twitter.com"><img class="social-icon" src="./Assets/Icons/icon-twitter.png" alt="twitter-icon"></a>
             </div>
         </div>
-    </Footer>
+    </footer>
 </body>
 </html>
